@@ -5,10 +5,10 @@
             <div class="row">
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 <label for="" class="form-label">Search Student</label>
-<input type="text" placeholder="Enter the name to search" class="form-control">
+<input type="text" placeholder="Enter the name to search" class="form-control" name="name" [(ngModel)]="name">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-<button class="btn btn-success">Search</button>
+<button class="btn btn-success" (click)="readValues()">Search</button>
 
                 
 
